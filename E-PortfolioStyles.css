@@ -9,9 +9,11 @@
 	float: left;
 	width: 60%;
 	height: 100%;
+	
 }
 .titleName {
 	margin-left: 25%;
+
 	padding: 0 5px;
 	background-color: green;
 	font-size: 36px;
@@ -85,7 +87,7 @@
 	display: block;
 	text-align: center;
 	background-color: cyan;
-	height: 200px;
+	height: auto;
 	width: 30%;
 	margin: 5px 5%;
 }
@@ -97,12 +99,22 @@
 }
 .LinkSubtile{
 	float: left;
-	width: 30%;
-	height: 150px;
+	width: 28%;
+	height: 200px;
 	margin: 5px;
 	text-align: center;
-	background-color: gray;
 	border: dashed 2px red;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#Tile1{
+	background-image: url("https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png");
+}
+#Tile2{
+	background-image: url("https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-512.png");
+}
+#Tile3{
+	background-image: url("http://veithen.github.io/images/icon-stackoverflow.svg");
 }
 .EndGame {
 	clear: both;
