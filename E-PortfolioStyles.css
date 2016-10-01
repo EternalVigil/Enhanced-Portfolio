@@ -8,12 +8,12 @@
 .maintitle {
 	float: left;
 	width: 60%;
-	height: 50px;
+	height: 100%;
 }
 .titleName {
 	margin-left: 25%;
-	padding: 5px 0;
-	background-color: blue;
+	padding: 0 5px;
+	background-color: green;
 	font-size: 36px;
 	line-height: 50px;
 	font-weight: bolder;
@@ -38,7 +38,8 @@
 }
 .maincontainer {
 	clear: both;
-	width: 100%;
+	float: left;
+	width: 60%;
 	min-height: 200px;
 	height: 100%;
 	background-color: red;
@@ -78,6 +79,30 @@
 	margin: auto;
 	padding: auto;
 	line-height: 30px;
+}
+.Links{
+	float: left;
+	display: block;
+	text-align: center;
+	background-color: cyan;
+	height: 200px;
+	width: 30%;
+	margin: 5px 5%;
+}
+.LinkTitle{
+	background-color: silver;
+	width: 100%;
+	font-size: 24px;
+	border-bottom: solid 2px black;
+}
+.LinkSubtile{
+	float: left;
+	width: 30%;
+	height: 150px;
+	margin: 5px;
+	text-align: center;
+	background-color: gray;
+	border: dashed 2px red;
 }
 .EndGame {
 	clear: both;
