@@ -9,6 +9,7 @@
 	float: left;
 	width: 60%;
 	height: 100%;
+	border-bottom: solid 1px silver;
 	
 }
 .titleName {
@@ -17,7 +18,7 @@
 	background-color: green;
 	font-size: 36px;
 	line-height: 50px;
-	font-weight: bolder;
+	font-weight: 800;
 }
 .navlist {
 	float: left;
@@ -31,7 +32,7 @@
 	float: left;
 	width: 33%;
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 600;
 }
 #middlelink {
 	border-right: solid 2px gray;
@@ -50,8 +51,8 @@
 	display: inline-block;
 	float: left;
 	background-size: 250px 300px;
-	width: 250px;
-	height: 300px;
+	width: 30%;
+	height: 250px;
 	text-align: center;
 	overflow: hidden;
 	border: dashed 2px blue;
@@ -88,8 +89,8 @@
 	text-align: center;
 	background-color: cyan;
 	height: auto;
-	width: 30%;
-	margin: 5px;
+	width: 40%;
+	overflow: auto;
 }
 .LinkTitle{
 	background-color: silver;
@@ -99,9 +100,9 @@
 }
 .LinkSubtile{
 	float: left;
-	width: 30%;
-	height: 200px;
-	margin: 5px;
+	width: 28%;
+	height: 175px;
+	margin: 5px 8px;
 	text-align: center;
 	border: dashed 2px red;
 	background-repeat: no-repeat;
@@ -128,7 +129,7 @@
 	padding: auto;
 	line-height: 30px;
 }
-.EndGame {
+.footer {
 	clear: both;
 	text-align: center;
 	width: 100%;
@@ -137,8 +138,8 @@
 	font-weight: 600;
 	background-color: green;
 }
-
-@media screen and (max-width: 720px){
+/*
+@media screen and (min-width: 200px) and (max-width: 720px){
 	.maincontainer{
 		width: 100%;
 		height: auto;
@@ -157,6 +158,8 @@
 		width: 100%;
 		clear: both;
 		text-align: center;
+		font-size: 18px;
+		font-weight: 600;
 	}
 	.navlinks{
 		float: left;
@@ -181,8 +184,40 @@
 		height: 125px;
 		margin: 2%;
 	}
-	.EndGame{
+	.footer{
 		font-size: 14px;
-		font-weight: lighter;
+		font-weight: 300;
 	}
 }
+
+@media screen and (min-width: 721px) and (max-width: 900px){
+	.maincontainer{
+		width: 75%;
+		height: auto;
+		overflow: auto;
+	}
+	.maintitle{
+		width: 100%;
+	}
+	.navlist{
+		clear: both;
+		width: 100%;
+	}
+	.navlinks{
+		font-size: 24px;
+		font-weight: 600;
+	}
+	.Links{
+		width: 20%;
+		margin: 0 5px;
+	}
+	.LinkTitle{
+		width: 100%;
+	}
+	.LinkSubtile{
+		width: 90%;
+		height: 180px;
+		margin:5px;
+	}
+}
+*/
