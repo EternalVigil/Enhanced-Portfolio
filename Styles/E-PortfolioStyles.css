@@ -47,6 +47,11 @@
 	overflow: auto;
 	margin-top: 5px;
 }
+.contact-title{
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: 600;
+}
 .profilepic {
 	float: left;
 	display: block;
@@ -160,7 +165,7 @@
 	background-color: green;
 }
 
-@media screen and (min-width: 200px) and (max-width: 720px) {
+@media screen and (min-width: 0px) and (max-width: 420px) {
 .maincontainer {
 	width: 100%;
 	height: auto;
@@ -211,7 +216,7 @@
 }
 }
 
-@media screen and (min-width: 721px) and (max-width: 900px) {
+@media screen and (min-width: 421px) and (max-width: 768px) {
 .maincontainer {
 	width: 75%;
 	height: auto;
