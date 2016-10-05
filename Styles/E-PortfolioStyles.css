@@ -30,7 +30,7 @@
 	font-size: 18px;
 	font-weight: 400;
 }
-.navlinks:hover{
+.navlinks:hover {
 	background-color: lightblue;
 	font-weight: 800;
 }
@@ -46,6 +46,24 @@
 	height: 100%;
 	overflow: auto;
 	margin-top: 5px;
+}
+.profilepic {
+	float: left;
+	display: block;
+	width: auto;
+	height: auto;
+	margin: 5px 25px;
+	
+}
+#profilethumb{
+	width: 200px;
+	height: auto;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
 }
 #tile1, #tile2, #tile3, #tile4 {
 	display: inline-block;
@@ -82,7 +100,7 @@
 	margin: auto;
 	line-height: 30px;
 }
-.tile-txt:active{
+.tile-txt:active {
 	color: yellow;
 }
 .Links {
@@ -103,14 +121,14 @@
 }
 .LinkSubtile {
 	float: left;
-	width: 30%;
+	width: 28%;
 	height: 200px;
 	margin: 5px 8px;
 	text-align: center;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
-	overflow:hidden;
+	overflow: hidden;
 }
 #Tile1 {
 	background-image: url("https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png");
